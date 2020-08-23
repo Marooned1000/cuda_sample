@@ -1,0 +1,9 @@
+cuda-gdb main.exe
+start
+show locals
+next
+
+
+
+sudo apt install libglew-dev
+
