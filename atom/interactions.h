@@ -54,6 +54,7 @@ void printInstructions() {
   printf(" a and d keys to move the slize accros z axis:\n");
   printf(" w automate z-axis move\n");
   printf(" n to switch between different nlm\n");
+  printf("Equation source from https://chem.libretexts.org");
 }
 
 #endif
