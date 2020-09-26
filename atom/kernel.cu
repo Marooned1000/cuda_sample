@@ -37,6 +37,9 @@ float2 euler(float x, float y, float dt, float tFinal,
 __device__
 unsigned char clip(float x){ return x > 255 ? 255 : (x < 0 ? 0 : x); }
 
+
+// Source of equations: https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Map%3A_Physical_Chemistry_for_the_Biosciences_(Chang)/11%3A_Quantum_Mechanics_and_Atomic_Structure/11.10%3A_The_Schr%C3%B6dinger_Wave_Equation_for_the_Hydrogen_Atom
+
 __device__
 float density(float ra, float th, float ph, int Z, int nlm) {
 
