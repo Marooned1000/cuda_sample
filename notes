@@ -3,6 +3,7 @@ start
 show locals
 next
 
+pkg-config --static --libs glfw3
 
 
 sudo apt install libglew-dev
